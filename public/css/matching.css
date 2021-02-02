@@ -1,0 +1,28 @@
+@font-face{
+    font-family: logo;
+    src: url('Qwigley-Regular.ttf');
+ }
+ h1,h2{color: rgba(250, 248, 248, 0.932); display: flex; justify-content: center; font-family: logo; font-size: 4em;}
+.contenedor{border: 1px solid white; background: rgba(8, 8, 8, 0.63); height: auto; margin: 0 auto; display: flex; flex-direction: column; justify-content: space-around; align-items: center; width: 60%;}
+.item{width: 10vw; color: orangered; background-image: url(../../assets/Fotos_mujeres/sinfoto.jpg);  background-position: center; background-size: cover; background-repeat: no-repeat;
+          height: 10vw; border: 3px solid rgb(128, 83, 187);  cursor: pointer;  display: inline-block;}
+.puntos{display: flex; justify-content: flex-start;  background: white;  padding: 5px; width: 60%;  margin: 0 auto;margin-top: 3%; }
+.checked-item{ background-image: url(../../assets/Fotos_mujeres/verificado.png); border: 2px solid green;}
+.sin-fondo-item{ background-image:none;}
+.nombres{display: flex; flex-direction: row;}
+.numero-carta{float: left; font-size: 30px; line-height: 2; display: block; width: 100%; text-align: center;}
+
+#contenedor-mensaje-victoria,  #contenedor-mensaje-derrota{position: fixed; top: 0; bottom: 0;left: 0;right: 0; background: #000000ad;}
+#mensaje-victoria,#mensaje-derrota{
+    min-height: 400px; background: white;top: 20%; position: relative; max-width: 600px; margin: 0 auto;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; border-radius: 20px; border: 1px solid purple;
+    background-color: darkgrey;
+ }
+ .ocultar-mensaje{display: none;}
+ .btn{ margin-bottom: 5px; font-weight: bold; cursor: pointer;}
+.icon-emoji-sad{    font-size: 3rem; color: purple; margin-bottom: 1%;}
+.pd{background: white; color: red; width: 40; border-radius: 10px;}
+.pd li{list-style: none;}
+.instrucciones{border: 1px solid white; padding:2%; background: rgba(8, 8, 8, 0.63); display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 0 auto; margin-bottom: 5%; }
+.instrucciones ul{margin: 0 auto;}     
+.inst{width: 60%;}

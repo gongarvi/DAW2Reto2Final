@@ -1,0 +1,14 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/buscaminas.js": "/js/buscaminas.js",
+    "/js/formulario.js": "/js/formulario.js",
+    "/js/game-page.js": "/js/game-page.js",
+    "/js/jsPuzzle.js": "/js/jsPuzzle.js",
+    "/js/match.js": "/js/match.js",
+    "/js/millonario.js": "/js/millonario.js",
+    "/js/mujeres.js": "/js/mujeres.js",
+    "/js/ruleta.js": "/js/ruleta.js",
+    "/js/tresenrayas.js": "/js/tresenrayas.js",
+    "/js/tresenrayasdiablo.js": "/js/tresenrayasdiablo.js"
+}

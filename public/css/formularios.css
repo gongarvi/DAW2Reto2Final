@@ -1,0 +1,28 @@
+@font-face{
+    font-family: logo;
+    src: url('Bleeding_Cowboys.ttf');
+}
+body{
+    background-image: url("../image/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main>div{
+    background-color: rgba(0,0,0,0.555) ;
+    padding: 5em !important;
+}
+#fotosperfil{
+    height: 200px;
+    padding: 2px;
+}
+.container{
+    margin-top:2% !important;
+}
+@media only screen and(min-width: 992px){
+    a{
+        padding: 0 !important;
+    }
+}

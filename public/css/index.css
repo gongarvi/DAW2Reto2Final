@@ -1,0 +1,33 @@
+@font-face{
+    font-family: logo;
+    src: url('Qwigley-Regular.ttf');
+}
+body{
+    background-image: url("../image/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main>div{
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 5em !important;
+
+}
+#logo{
+    font-family: logo;
+    font-size: 6em;
+}
+a{
+    font-size: 25px !important;
+    padding: 1em !important;
+}
+.container{
+    margin-top:5% !important;
+}
+@media only screen and(min-width: 992px){
+    a{
+        padding: 0 !important;
+    }
+}

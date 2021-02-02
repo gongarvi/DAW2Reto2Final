@@ -1,0 +1,13 @@
+table{border:2px solid rgb(0, 0, 0); border-collapse:collapse;}
+
+td.pieza{
+    background-image:url(Fotos_mujeres/_Ayn_Rand.jpg);  
+    background-repeat: no-repeat;
+    transition:.3s ease-in-out; 
+    -moz-transition:.3s ease-in-out; 
+    -webkit-transition:.3s ease-in-out; 
+    -o-transition:.3s ease-in-out; 
+    cursor:pointer;}
+
+div.posic{ display: none;background:#FFF; padding:5px; border:1px solid #000000; width:150px; position:absolute; top:70px; overflow:auto; min-height:5px; max-height:250px}
+

@@ -1,0 +1,100 @@
+body{
+  background-image: url("../image/fondo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+.container{
+  background-color: rgba(0,0,0,0.555) ;
+}
+#gameboard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 500px;
+  margin-left: 40px;
+  color: white;
+}
+
+.square {
+  height: 166.6666666667px;
+  width: 166.6666666667px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.symbol {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.left-square {
+  border-right: 2px solid black;
+  border-color: white;
+}
+
+.right-square {
+  border-left: 2px solid black;
+  border-color: white;
+}
+
+#row1,
+#row2 {
+  border-bottom: 2px solid black;
+  border-color: white;
+}
+
+.glow {
+  text-shadow: 4px 2px 4px rgba(150, 132, 36, 0.5), 4px -2px 4px rgba(150, 132, 36, 0.5), -4px 2px 4px rgba(150, 132, 36, 0.5), -4px -2px 4px rgba(150, 132, 36, 0.5), 2px 4px 4px rgba(150, 132, 36, 0.5), 2px -4px 4px rgba(150, 132, 36, 0.5), -2px 4px 4px rgba(150, 132, 36, 0.5), -2px -4px 4px rgba(150, 132, 36, 0.5);
+}
+
+.buttons {
+  /* width: 50px; */
+  /* margin: 100px 0 0 40px; */
+  text-align: center;
+}
+.buttons h1 {
+  color: white;
+}
+
+.buttons span {
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  border: 2px solid white;
+  width: 100px;
+  height: 75px;
+  /* margin: 8px; */
+  border-radius: 10%;
+  text-align: center;
+}
+
+#contenedor-mensaje, #contenedor-mensaje-victoria,  #contenedor-mensaje-derrota, #cuestionario{
+  position: fixed; 
+  top: 0; 
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  background: #000000ad;
+} 
+#mensaje, #mensaje-victoria,#mensaje-derrota, #cuestionario{
+   min-height: 400px; 
+   top: 20%; 
+   position: relative; 
+   max-width: 600px; 
+   margin: 0 auto;
+   display: flex; 
+   flex-direction: column; 
+   justify-content: center; 
+   align-items: center; 
+   border-radius: 20px;
+   background-color: darkgrey; 
+}
+.ocultar-mensaje{display: none;}

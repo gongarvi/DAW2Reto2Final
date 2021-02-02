@@ -1,0 +1,26 @@
+@font-face{
+    font-family: logo;
+    src: url('public/css/Bleeding_Cowboys.ttf');
+ }
+ h1,h2{color: rgba(0,0,0,0.555); display: flex; justify-content: center; font-family: logo;}
+.contenedor{border: 2px solid white; height: auto; margin: 0 auto; display: flex; flex-direction: column; justify-content: space-around; align-items: center; width: 60%;}
+.item{width: 150px; color: orangered; background-image: url(../../public/assets/Fotos_mujeres/placeholder-usuario.png);  background-position: center; background-size: cover; background-repeat: no-repeat;
+          height: 150px; border: 1px solid black;  cursor: pointer;  display: inline-block; margin: 10px;}
+.puntos{display: flex; justify-content: flex-start;  background: white;  padding: 5px; width: 60%;  margin: 0 auto;margin-top: 7%; }
+.checked-item{ background-image: url(../../public/assets/Fotos_mujeres/verificado.jpg); border: 2px solid green;}
+.sin-fondo-item{ background-image:none;}
+
+.numero-carta{float: left; font-size: 30px; line-height: 2; display: block; width: 100%; text-align: center;}
+
+#contenedor-mensaje-victoria,  #contenedor-mensaje-derrota{position: fixed; top: 0; bottom: 0;left: 0;right: 0; background: #000000ad;}
+#mensaje-victoria,#mensaje-derrota{
+    min-height: 400px; background: white;top: 20%; position: relative; max-width: 600px; margin: 0 auto;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; border-radius: 20px; border: 1px solid purple;
+    background-color: darkgrey;
+ }
+ .ocultar-mensaje{display: none;}
+ .btn{ margin-bottom: 5px; font-weight: bold; cursor: pointer;}
+.icon-emoji-sad{    font-size: 3rem; color: purple; margin-bottom: 1%;}
+.glow{
+    border: 2px solid yellow ;
+}

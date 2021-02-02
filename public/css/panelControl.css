@@ -1,0 +1,19 @@
+.panel {        height: auto;
+   
+    background-color: rgba(0,0,0,0.555);
+    padding: 5em !important;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    margin-top: 8%; }
+.panel li a{ color: white; }
+.panel li{list-style: none; }
+.panel li a h3{font-size: 2rem;}
+.panel li a:hover{text-decoration: none; color: black;}
+
+
+
+
+
+

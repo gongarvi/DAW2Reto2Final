@@ -1,0 +1,91 @@
+
+/* Propiedades Generales */
+body{
+    background-image: url("../image/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+div {
+	box-sizing: border-box;
+}
+
+/* Piezas de seleccion en la pantalla */
+.choice {
+	text-align: center;
+	width: 55%;
+}
+.choice .piece {
+	cursor: pointer;
+	margin: 3%;
+	padding: 3%;
+}
+
+/* La mesa del juego */
+.game-board {
+	width: 55vh;
+	height: 55vh;
+	margin: auto;
+	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-wrap: wrap;
+  	flex-wrap: wrap;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	background-color: rgba(17, 17, 17, 0.801);
+	color: #fff;
+}
+@media screen and (orientation: portrait) {
+	/* Safari (en las viejas versiones) no controla vh */
+	.safari-fix {
+		width: 400px;
+		height: 400px;
+	}
+}
+
+/* las cajas */
+.tile {
+	width: 33.33%;
+	height: 33.33%;
+	display: -webkit-flex;
+  	display: flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+/* bordes de las cajas */
+.tile:nth-of-type(2),
+.tile:nth-of-type(8) {
+	border-width: 0 4px 0 4px;
+	border-color: #fbfbfb;
+	border-style: solid;
+}
+
+.tile:nth-of-type(4),
+.tile:nth-of-type(6) {
+	border-width: 4px 0 4px 0;
+	border-color: #ffffff;
+	border-style: solid;
+}
+
+.tile:nth-of-type(5) {
+	border: 4px solid #ffffff;
+}
+
+/* X's y O's */
+.piece {
+	margin: 0;
+	padding: 0;
+	font-size: 3em;
+	font-family: "Book Antiqua", Serif;
+	cursor: default;
+}
+.highlight {
+	color: rgb(4, 255, 4);
+}
+.redlight {
+	color: red;
+}

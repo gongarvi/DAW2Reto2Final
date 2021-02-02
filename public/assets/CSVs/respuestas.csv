@@ -1,0 +1,165 @@
+pregunta;respuesta;correcta
+1;Universidad de Columbia;false
+1;Historiadores Americanos;true
+1;Instituto tecnológico de Massachusetts;false
+1;Real Academia Española;false
+2;1894;false
+2;1994;false
+2;1874;true
+2;1934;false
+3;Doctora nativo americana;true
+3;Graduada en medicina;false
+3;Realizó pequeños prestamos a nativo americanos;false
+3;Primera nativa presidenta de la Sociedad Antropológica de Washington;false
+4;España;false
+4;Venezula;false
+4;Argentina;false
+4;México;true
+5;Nobel de la paz;true
+5;Nobel de quimica;false
+5;Premio Fundación MAPFRE;false
+5;No gano ningun premio;false
+6;Cubos de basura;false
+6;Colchas;true
+6;Ropa;false
+6;Xilófonos;false
+7;30 años;true
+7;20 años;false
+7;10 años;false
+7;1 año;false
+8;Filipinas;false
+8;España;true
+8;Colombia;false
+8;Panamá;false
+9;La cope;false
+9;Servicios de ayuda telefónica;false
+9;Partido póltico;false
+9;Programa radiofónico;true
+10;El trabajo Realizado por un Sociologo;true
+10;Petición para un articulo de una revista;false
+10;Para ampliar su propio conocimiento;false
+10;Para finalizar sus estudios académicos;false
+11;Historiadores Americanos;true
+11;Real Academia Española;false
+11;NGDO;false
+11;Greenpeace;false
+12;Inteligencia Atificial;false
+12;Ciencias Sociales;true
+12;Analisis  de estudios sociologicos;false
+12;Hospital psiquiatrico;false
+13;La importancia del sexo en la pareja;false
+13;Psicolgía infantil;true
+13;La gravedad de las depresiones y ansiedad;false
+13;Las diferencias económicas entre los distintas clases sociales;false
+14;Historia monetaria del país;true
+14;Comportamiento de los paises durante deflaciones;false
+14;La política monetara;false
+14;Ciclos económicos;false
+15;Libreación de la raza negra;true
+15;Acceso igualitario a la universidad;false
+15;Mejoras laborales en las fábricas;false
+15;Grupo proanimal de Whasington;false
+16;Reino unido;false
+16;Estados Unidos;true
+16;Suecia;false
+16;Noruega;false
+17;Astrología;false
+17;Historia y arquitectura Coreana;false
+17;Historia y arquitectura China;true
+17;Historia y arquitectura Japonesa;false
+18;1934;true
+18;1930;false
+18;1830;false
+18;1869;false
+19;Italia;false
+19;Grecia;true
+19;Austria;false
+19;Turquia;false
+20;Investigacion de la FED;false
+20;Investigacion del BCE;false
+20;Investigacion del Banco Mundial;true
+20;La NGDO ;false
+21;Investigadora;false
+21;Academica;false
+21;Profesora;true
+21;Magistrada;false
+22;Economia;false
+22;Derecho;false
+22;Historia;true
+22;Astrología;false
+23;España;false
+23;Filipinas;false
+23;Norteamericana;true
+23;Suecia;false
+24;Estudios de Género en la FED Acatlán;false
+24;Estudios de Género en la CIA;false
+24;Estudios de Género en la FES Acatlán;true
+24;Estudios de Género en Oxford;false
+25;Panamá;false
+25;Colombia;false
+25;Suecia;true
+25;Venezula;false
+26;Economia;false
+26;Geografia;false
+26;Historia;true
+26;Filosofia;false
+27;Ideario de Pedagogia;false
+27;Ideario Socialista;false
+27;Ideario Feminista;true
+27;Ideario de Psicologia;false
+28;Universidad Autónoma de Valencia;false
+28;Universidad Autónoma de Pais Vasco;false
+28;Universidad Autónoma de Barcelona;true
+28;Universidad Autónoma de Murcia;false
+29;1997;false
+29;1983;false
+29;1993;true
+29;1995;false
+30;Medica;false
+30;Filosofa;false
+30;Sociologa;true
+30;Economista;false
+31;1940;false
+31;1950;false
+31;1949;true
+31;1930;false
+32;Pedagoga;false
+32;Economista;false
+32;Sociologa;true
+32;Filosofa;false
+33;1985;false
+33;1970;false
+33;1982;true
+33;1990;false
+34;2005;false
+34;2020;false
+34;2012;true
+34;2015;false
+35;Venezula;false
+35;Colombia;false
+35;Estados Unidos;true
+35;Panamá;false
+36;1946;false
+36;1933;false
+36;1946;true
+36;1936;false
+37;Derecho;false
+37;Geografia;false
+37;Historia;true
+37;Filosofia;false
+38;Derecho;false
+38;Geografia;false
+38;Sociologa;true
+38;Filosofia;false
+39;Escuela Moderna;false
+39;Escuela de arte;false
+39;Escuela cirenaica;true
+39;Escuela de Actuacion;false
+40;Derecho;false
+40;Sociologia;false
+40;Economia;true
+40;Medicina;false
+41;1959;true
+41;1949;false
+41;1900;false
+41;1859;false
